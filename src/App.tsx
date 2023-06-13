@@ -1,9 +1,6 @@
 import DropBox from "./Components/DropBox"
-import axios from 'axios'
 import { Routes, Route, Path } from 'react-router-dom'
 import Download from "./Components/Download"
-
-axios.defaults.baseURL = 'http://localhost:3000/'
 
 function App() {
   return (
