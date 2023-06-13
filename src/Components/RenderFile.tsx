@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import { Ifile } from '../libs/types'
-import filePic from '../assets/file.png'
+import filePic from '../assets/File.png'
 import { sizeInMb } from '../utilities/convertor'
 
 const RenderFile : FunctionComponent<{file : Ifile}> = ({file : {format , sizeInBytes , name}}) => {
